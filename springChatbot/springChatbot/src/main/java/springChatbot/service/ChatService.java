@@ -13,7 +13,7 @@ import java.util.List;
 @Service
 public class ChatService {
 
-    @Value("${fastapi.url:http://172.29.85.13 172.17.0.1 172.18.0.1:8000}")
+    @Value("${fastapi.url:http://172.18.0.1:8000}")
     private String fastApiUrl;
 
     private final RestTemplate restTemplate;
